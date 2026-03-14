@@ -1,3 +1,14 @@
-Texto texto textoLista 1
-Lista 2
-Modificación de Lista ETC Lista ETC
+scala> val ListaColores1 = List("rojo","blanco","negro")
+val ListaColores1: List[String] = List(rojo, blanco, negro)
+
+scala> val ListaColores2 = List("verde","amarillo","azul","naranja","perla")
+val ListaColores2: List[String] = List(verde, amarillo, azul, naranja, perla)
+
+scala> val seleccionados = ListaColores2.take(3)
+val seleccionados: List[String] = List(verde, amarillo, azul)
+
+
+
+val ListaColores1 = List("rojo","blanco","negro")
+val ListaColores2 = List("verde","amarillo","azul","naranja","perla")
+val seleccionados: List[String] = List(verde, amarillo, azul)
